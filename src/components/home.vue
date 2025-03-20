@@ -21,7 +21,7 @@
 
 .home {
   position: relative;
-  background: #252257;
+  background: #FFFFFF;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -37,7 +37,7 @@
   right: 0;
   width: 380px;
   height: 400px;
-  background: linear-gradient(135deg, #ff5733, #ffc300, #ff006f);
+  background: linear-gradient(135deg, pink, #252257, purple);
   clip-path: polygon(70% 0%, 100% 30%, 85% 60%, 100% 85%, 60% 100%, 30% 85%, 10% 60%, 20% 30%);
   opacity: 0.9;
   animation: paintMove 6s infinite alternate ease-in-out;
@@ -66,17 +66,17 @@
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 16px;
-  color: #8E4585;
+  color: #252257;
 }
 
 .text-content p {
   font-size: 1.25rem;
   margin-bottom: 24px;
-  color: #E5E7EB;
+  color: #000000;
 }
 
 .cta-button {
-  background-color: #8E4585;
+  background-color: #252257;
   color: white;
   padding: 12px 24px;
   border-radius: 8px;
@@ -86,7 +86,7 @@
 }
 
 .cta-button:hover {
-  background-color: purple;
+  background-color: blue;
 }
 
 .image-content {
@@ -99,7 +99,7 @@
 .hexagon {
   width: 300px;
   height: 300px;
-  background: linear-gradient(135deg, #f9a825, #e91e63);
+  background: linear-gradient(135deg, #252257, pink);
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
   display: flex;
   align-items: center;

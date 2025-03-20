@@ -33,11 +33,10 @@ export default {
 </script>
 
 <style scoped>
-/* Navbar Full Width */
 .navbar {
   width: 100%;
-  background-color: #252257;
-  color: #E5E7EB;
+  background-color: #FFFFFF;
+  color: #252257;
   padding: 16px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -47,7 +46,6 @@ export default {
   z-index: 1000;
 }
 
-/* Container Tengah */
 .container {
   display: flex;
   align-items: center;
@@ -56,7 +54,6 @@ export default {
   padding: 0 32px;
 }
 
-/* Logo */
 .logo {
   display: flex;
   align-items: center;
@@ -64,8 +61,8 @@ export default {
 }
 
 .logo-icon {
-  background-color: #e2e8f0;
-  color: #333333;
+  background-color: #252257;
+  color: #FFFFFF;
   height: 32px;
   width: 32px;
   display: flex;
@@ -81,7 +78,6 @@ export default {
   margin-right: auto;
 }
 
-/* Navbar Menu */
 .nav-menu {
   display: flex;
   justify-content: center;
@@ -92,7 +88,6 @@ export default {
   margin-right: auto;
   margin-left: 32px;
   flex: 1;
-   /* Biar menu tetap sejajar & IDN lebih ke kiri */
 }
 
 .nav-menu li {
@@ -101,31 +96,28 @@ export default {
 
 .nav-item {
   text-decoration: none;
-  color: #E5E7EB;
+  color: #252257;
   font-weight: 500;
   transition: color 0.3s;
 }
 
 .nav-item:hover {
-  text-decoration: underline;
-  color: #f1f5f9;
+  color: blue;
 }
 
-/* Settings */
 .settings {
   display: flex;
   align-items: center;
-  margin-left: auto; /* Dorong tombol IDN lebih ke kiri */
+  margin-left: auto; 
 }
 
-/* Tombol IDN */
 .language-button {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: transparent;
-  color: #E5E7EB;
-  border: 1px solid #E5E7EB;
+  color: #252257;
+  border: 1px solid #252257;
   border-radius: 6px;
   padding: 8px 16px;
   font-size: 14px;
